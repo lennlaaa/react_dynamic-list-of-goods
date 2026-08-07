@@ -10,8 +10,7 @@ export const App: React.FC = () => {
 
   return (
     <div>
-      <h1>Dynamic list of Goods</h1>
-
+      Dynamic list of Goods
       <button
         type="button"
         data-cy="all-button"
@@ -21,7 +20,6 @@ export const App: React.FC = () => {
       >
         Load all goods
       </button>
-
       <button
         type="button"
         data-cy="first-five-button"
@@ -31,7 +29,6 @@ export const App: React.FC = () => {
       >
         Load 5 first goods
       </button>
-
       <button
         type="button"
         data-cy="red-button"
@@ -41,7 +38,6 @@ export const App: React.FC = () => {
       >
         Load red goods
       </button>
-
       <GoodsList goods={goods} />
     </div>
   );
